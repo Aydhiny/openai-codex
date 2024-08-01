@@ -1,0 +1,5 @@
+# Ignore environment variables
+.env
+
+# Ignore sensitive files
+server/server.js
