@@ -6,7 +6,7 @@ import { OpenAI } from 'openai';
 // Load environment variables from .env file
 dotenv.config();
 
-const apiKey = process.env.OPENAI_API_KEY || 'random';
+const apiKey = 'random';
 const openai = new OpenAI({ apiKey });
 
 const app = express();
